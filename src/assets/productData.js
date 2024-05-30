@@ -1,0 +1,88 @@
+export const productData = [
+  {
+    id: 209,
+    display_id: 8,
+    owner: 1079,
+    userId: 9, //for products userId will be treated as Foreign key
+    name: 'amaze',
+    category: 'The god of War',
+    characteristics: 'New Product Characteristics',
+    features: '',
+    brand: 'New Product Brand',
+    sku: [
+      {
+        id: 248,
+        selling_price: 54,
+        max_retail_price: 44,
+        amount: 33,
+        unit: 'kg',
+        quantity_in_inventory: 534,
+        product: 209,
+      },
+    
+      {
+        id: 247,
+        selling_price: 32,
+        max_retail_price: 32,
+        amount: 33,
+        unit: 'kg',
+        quantity_in_inventory: 987,
+        product: 209,
+      },
+      {
+        id: 246,
+        selling_price: 23,
+        max_retail_price: 21,
+        amount: 22,
+        unit: 'kg',
+        quantity_in_inventory: 897,
+        product: 209,
+      },
+    ],
+    updated_on: '2024-05-24T12:46:41.995873Z',
+    adding_date: '2024-05-24T12:46:41.995828Z',
+  },
+  {
+    id: 1209,
+    display_id: 8,
+    owner: 1079,
+    userId: 9, //for products userId will be treated as Foreign key
+    name: 'DVD',
+    category: 'The god of War',
+    characteristics: 'New Product Characteristics',
+    features: '',
+    brand: 'New Product Brand',
+    sku: [
+      {
+        id: 248,
+        selling_price: 54,
+        max_retail_price: 44,
+        amount: 33,
+        unit: 'kg',
+        quantity_in_inventory: 423,
+        product: 209,
+      },
+    
+      {
+        id: 247,
+        selling_price: 32,
+        max_retail_price: 32,
+        amount: 33,
+        unit: 'kg',
+        quantity_in_inventory: 243,
+        product: 209,
+      },
+      {
+        id: 246,
+        selling_price: 23,
+        max_retail_price: 21,
+        amount: 22,
+        unit: 'kg',
+        quantity_in_inventory: 243,
+        product: 209,
+      },
+    ],
+    updated_on: '2024-05-24T12:46:41.995873Z',
+    adding_date: '2024-05-24T12:46:41.995828Z',
+  },
+];
